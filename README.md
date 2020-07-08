@@ -34,6 +34,12 @@ var article = new Readability(documentClone).parse();
 
 ## Usage from node.js
 
+### Installing
+
+
+    $ npm install github:mozilla/readability
+
+
 In node.js, you won't generally have a DOM document object. To obtain one, you can use external
 libraries like [jsdom](https://github.com/tmpvar/jsdom). While this repository contains a parser of
 its own (`JSDOMParser`), that is restricted to reading XML-compatible markup and therefore we do
